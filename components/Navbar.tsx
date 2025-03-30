@@ -132,8 +132,18 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu (toggle visibility based on state) */}
-      <div className={`sm:hidden ${isMenuOpen ? "block" : "hidden"} mt-4`}>
-        <ul className="flex flex-col items-center space-y-4">
+      <div className={`sm:hidden ${isMenuOpen ? "block" : "hidden"} mt-4 relative`}>
+        {/* Close Button (X) positioned at the top */}
+        {isMenuOpen && (
+          <button 
+            onClick={toggleMenu} 
+            className="absolute top-2 right-4 text-3xl text-white"
+          >
+            ×
+          </button>
+        )}
+
+        <ul className="flex flex-col items-center space-y-4 pt-10">
           <li>
             <Link href="/#about" className="text-lg hover:underline">
               About
