@@ -1,39 +1,3 @@
-// import Link from "next/link";
-
-// const Navbar = () => {
-//   return (
-//     // <nav className="flex justify-between items-center px-8 py-6 bg-black text-white">
-//     <nav className="flex justify-between items-center px-8 py-6 bg-black text-white border-b border-[#1f2937]">
-//       <h1 className="text-2xl font-bold">
-//         <Link href="/">Tuan Nguyen</Link>
-//       </h1>
-//       <ul className="flex gap-6 text-lg">
-//         <li>
-//           <Link href="/#about" className="hover:underline">
-//             About
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="/projects" className="hover:underline">
-//             Projects
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="/skills" className="hover:underline">
-//             Skills
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="/contact" className="hover:underline">
-//             Contact
-//           </Link>
-//         </li>
-//       </ul>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
 import { useState } from "react";
 import Link from "next/link";
 
