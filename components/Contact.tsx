@@ -20,7 +20,8 @@
 //             Get In Touch
 //           </a>
 //           <a
-//             href="/resume.pdf"
+//             href="/resume.pdf" // Ensure the file is in the public folder and referenced correctly
+//             download="Tuan_Nguyen_CV.pdf"
 //             target="_blank"
 //             rel="noopener noreferrer"
 //             className="border border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white font-semibold py-3 px-6 rounded-md transition"
@@ -31,7 +32,7 @@
 
 //         <div className="text-gray-400 text-sm space-y-1">
 //           <p>Email me directly:</p>
-//           {/* <p className="text-white">tuanng2210@gmail.com</p> */}
+
 //           <div className="flex items-center justify-center gap-2 text-white">
 //             <svg
 //               xmlns="http://www.w3.org/2000/svg"
@@ -74,12 +75,12 @@ const Contact = () => {
     <section className="bg-black px-6 py-24 min-h-screen text-white flex justify-center items-center">
       <div className="text-center max-w-2xl w-full">
         <h2 className="text-4xl sm:text-5xl font-extrabold mb-6">
-          <span className="text-white">Let's </span>
+          <span className="text-white">Let&apos;s </span>
           <span className="text-purple-400">connect</span>
         </h2>
 
         <p className="text-gray-400 mb-10 text-lg">
-          I’m open to collaboration, freelance work, or just having a chat about
+          I&apos;m open to collaboration, freelance work, or just having a chat about
           tech and ideas.
         </p>
 
