@@ -7,7 +7,7 @@ const skills = [
   { name: "Express", src: "/skills/Expresscolor.png" },
   { name: "Docker", src: "/skills/Docker.png" },
   { name: "Git", src: "/skills/Git.png" },
-  { name: "C++", src: "/skills/C++ (CPlusPlus).png" },
+  { name: "C++", src: "/skills/Cplus.png" },
   { name: "Azure", src: "/skills/Azure.png" },
   { name: "Spring Boot", src: "/skills/Spring.png" },
 ];
