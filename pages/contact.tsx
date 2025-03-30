@@ -1,12 +1,11 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
+import Contact from "@/components/Contact";
 
-export default function Home() {
+export default function ContactPage() {
   return (
     <div className="bg-black min-h-screen">
       <Navbar />
-      <About />
+      <Contact />
     </div>
   );
 }
