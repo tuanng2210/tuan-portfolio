@@ -113,7 +113,7 @@ const projects = [
     description: "Lyric Finder web app using a public API to search for song lyrics.",
     image: "/projects/lyric-finder-thumb.png", // Place this in /public/projects/
     liveLink: "https://lyrics-finder-app-six.vercel.app/",
-    githubLink: "#", // Add the GitHub link if available
+    githubLink: "https://github.com/tuanng2210/lyrics-finder-app", // Add the GitHub link if available
     tags: ["#Next.js", "#API", "#JavaScript"],
   },
 ];
