@@ -130,7 +130,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="group bg-[#111827] border border-[#1f2937] rounded-xl overflow-hidden transform transition-all hover:scale-105 shadow-md hover:shadow-lg w-80 h-[450px]" // Fixed width and height
+            className="group bg-[#111827] border border-[#1f2937] rounded-xl overflow-hidden transform transition-all hover:scale-105 shadow-md hover:shadow-lg w-80"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -139,7 +139,7 @@ const Projects = () => {
               alt={project.title}
               className="w-full h-48 object-cover"
             />
-            <div className="p-6 text-left flex flex-col justify-between h-full">
+            <div className="p-6 text-left">
               <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
               <p className="text-sm text-purple-400 mb-2">{project.subtitle}</p>
               {project.description && (
